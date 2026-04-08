@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estructuras de Datos - CS2031 Team</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/page.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/team.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -30,15 +35,15 @@
             <ul class="nav__list">
               <li class="nav__item">
                 <!-- BUG #1: este enlace apunta a la seccion equivocada, deberia ser #hero -->
-                <a href="#inicio" class="nav__link">Inicio</a>
+                <a href="#hero" class="nav__link">Inicio</a>
               </li>
               <li class="nav__item">
                 <!-- BUG #2: este enlace apunta a la seccion equivocada, deberia ser #about -->
-                <a href="#sobre" class="nav__link">Acerca de</a>
+                <a href="#about" class="nav__link">Acerca de</a>
               </li>
               <li class="nav__item">
                 <!-- BUG #3: este enlace apunta a la seccion equivocada, deberia ser #team -->
-                <a href="#integrantes" class="nav__link">Equipo</a>
+                <a href="#team" class="nav__link">Equipo</a>
               </li>
             </ul>
           </div>
@@ -136,34 +141,88 @@
                 <div class="team-card__image">
                   <!-- Aquí tu foto de perfil (URL de GitHub u otra imagen) -->
                   <img
-                    src="https://picsum.photos/300/300?random=1"
-                    alt="Nombre Integrante 1"
+                    src="https://github.com/adrianrojas-12.png"
+                    alt="Adrian Rojas"
                     class="team-card__photo"
                   />
                 </div>
                 <div class="team-card__content">
                   <!-- Aquí tu nombre completo -->
-                  <h3 class="team-card__name">Christine Ting</h3>
+                  <h3 class="team-card__name">Adrian Rojas</h3>
                   <!-- Aquí tu especialidad o rol -->
-                  <p class="team-card__role">Fullstack Developer</p>
+                  <p class="team-card__role">Data Scientist</p>
                   <div class="team-card__social">
                     <!-- Reemplaza # con tu URL de GitHub -->
                     <a
-                      href="https://github.com/adrianrojas-12"
-                      class="team-card__social-link team-card__social-link--github"
-                    >
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <!-- Reemplaza # con tu URL de LinkedIn -->
+                    href="https://github.com/adrianrojas-12"
+                    class="team-card__social-link team-card__social-link--github"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
                     <a
                       href="www.linkedin.com/in/adrian-rojas12"
                       class="team-card__social-link team-card__social-link--linkedin"
-                    >
+                    > 
                       <i class="fab fa-linkedin"></i>
-                    </a>
+                  </a>
                   </div>
                 </div>
+
               </div>
+              <div class="team-card">
+              <div class="team-card__image">
+                <img
+                  src="https://github.com/ldrane.png"
+                  alt="Leonardo Medina"
+                  class="team-card__photo"
+                />
+              </div>
+              <div class="team-card__content">
+                <h3 class="team-card__name">Leonardo Medina</h3>
+                <p class="team-card__role">Polymath thinker</p>
+                <div class="team-card__social">
+                  <a
+                    href="https://github.com/ldrane"
+                    class="team-card__social-link team-card__social-link--github"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/leonardo-medina-6a4a77253/"
+                    class="team-card__social-link team-card__social-link--linkedin"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+              </div>
+              <div class="team-card">
+              <div class="team-card__image">
+                <img
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQGvJsOwvmFUPQ/profile-displayphoto-shrink_800_800/B4DZbO.BveGwAc-/0/1747229089428?e=1776297600&v=beta&t=RJJr6WrJFEe1A_JYTl_UE_zD2IJ23dEbElNJH-gvnqY"
+                  alt="Daniela Rodrigo"
+                  class="team-card__photo"
+                />
+              </div>
+              <div class="team-card__content">
+                <h3 class="team-card__name">Daniela Rodrigo</h3>
+                <p class="team-card__role">Data Scientist</p>
+                <div class="team-card__social">
+                  <a
+                    href="https://github.com/ROdanielaRO"
+                    class="team-card__social-link team-card__social-link--github"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/bricet-daniela-silvana-rodrigo-inocente-405727318/"
+                    class="team-card__social-link team-card__social-link--linkedin"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </section>
