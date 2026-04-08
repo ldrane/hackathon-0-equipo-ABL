@@ -30,4 +30,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
+<<<<<<< HEAD
         uses: actions/deploy-pages@v4
+=======
+        uses: actions/deploy-pages@v4
+>>>>>>> e29bae5 (fix: native GitHub Pages deployment)
